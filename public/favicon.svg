@@ -1,0 +1,52 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circle -->
+  <circle 
+    cx="24" 
+    cy="24" 
+    r="22" 
+    stroke="#523A34" 
+    stroke-width="2"
+  />
+  
+  <!-- Coffee Cup -->
+  <path 
+    d="M34 20H14c-1 0-2 .9-2 2v8c0 5.5 4.5 10 10 10h4c5.5 0 10-4.5 10-10v-8c0-1.1-1-2-2-2z"
+    fill="#523A34"
+  />
+  
+  <!-- Steam Lines -->
+  <path 
+    d="M20 16c0-2 1.5-4 3-4"
+    stroke="#523A34"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+  <path 
+    d="M24 14c0-2 1.5-4 3-4"
+    stroke="#523A34"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+  <path 
+    d="M28 16c0-2 1.5-4 3-4"
+    stroke="#523A34"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+  
+  <!-- Handle -->
+  <path 
+    d="M34 24h4c1.1 0 2 .9 2 2v2c0 1.1-.9 2-2 2h-4"
+    stroke="#523A34"
+    stroke-width="2"
+    fill="none"
+  />
+  
+  <!-- Z Pattern -->
+  <path 
+    d="M19 25l10 0M19 29l10 0M19 33l10 0"
+    stroke="#523A34"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+</svg>

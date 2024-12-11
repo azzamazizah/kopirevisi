@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@layer components {
+  /* Custom brown color classes */
+  .bg-brown-600 {
+    @apply bg-[#795548];
+  }
+  .bg-brown-700 {
+    @apply bg-[#5d4037];
+  }
+  .bg-brown-800 {
+    @apply bg-[#4e342e];
+  }
+
+  /* Form styles */
+  input, textarea {
+    @apply border-gray-300 rounded-md shadow-sm;
+  }
+
+  input:focus, textarea:focus {
+    @apply border-brown-500 ring-2 ring-brown-500/20 ring-offset-2 outline-none;
+  }
+
+  button:disabled {
+    @apply opacity-50 cursor-not-allowed;
+  }
+}
